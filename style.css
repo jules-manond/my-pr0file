@@ -1,0 +1,150 @@
+head, body {
+text-align: center;
+}
+
+body {
+	background-color: rgba(32, 33, 36, 1);
+	color:rgba(228, 241, 254, 1);
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+	line-height: 1.25;
+}
+
+h1 {
+	color: rgba(255, 255, 255, 1.0);
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bolder;
+	letter-spacing: 4px;
+	font-size: 60px;
+}
+
+h2 {
+	color: rgba(255, 255, 255, 1.0);
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: lighter;
+}
+
+a  {
+	text-decoration: none;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 700;
+	line-height: 1
+}
+
+a:hover {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 700;	
+}
+
+.container {
+	width: 900px;
+	margin: 25px auto;
+}
+
+
+.card-dark {
+	background-color: rgba(41, 42, 45, 1);
+	padding: 30px;
+	margin: 25px 0px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 10px;
+}
+
+.card-gray {
+	background-color: rgba(121, 131, 147);
+	padding: 30px;
+	margin: 25px 0px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 10px;
+}
+
+.card-dark {
+	background-color: rgba(41, 42, 45, 1);
+	padding: 30px;
+	margin: 25px 0px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 10px;
+}
+
+.card-gray {
+	background-color: rgba(121, 131, 147);
+	padding: 30px;
+	margin: 25px 0px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 10px;
+}
+
+@media (max-width: 950px) {
+	.container {
+		width: 800px;
+	}
+
+}
+@media (max-width: 850px) {
+	.container {
+		width: 700px;
+	}
+
+}
+
+@media (max-width: 750px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 650px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 600px) {
+	.container {
+		width: 450px;
+	}
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: rgba(127, 166, 229, 1);
+	color:black;
+	padding: 10px 15px;
+	border-radius: 7px;
+}
+
+.btn-blue:hover {
+	background-color: rgba(63, 102, 165, 1);
+	color:black;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+
+.list-inline i {
+	font-size: 30px;
+	color:rgba(228, 241, 254, 1);
+	background-color: rgba(127, 166, 229, 1);
+	padding: 10px 15px;
+	border-radius: 7px;
+}
+
+.list-inline i:hover {
+	color:rgba(32, 33, 36, 1);
+	background-color: rgba(63, 102, 165, 1)
+}
+
+#text p {
+	margin-top: 10px
+}
